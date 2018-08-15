@@ -1,8 +1,3 @@
-const title = 'My Minimal React Webpack Babel Setup';
-
-export default () => ((
-  <div>{title}</div>,
-  document.getElementById('app')
-));
+import App from './App'; // eslint-disable-line no-unused-vars
 
 module.hot.accept();
